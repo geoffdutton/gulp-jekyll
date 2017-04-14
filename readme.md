@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/geoffdutton/gulp-jekyll.svg)](https://travis-ci.org/geoffdutton/gulp-jekyll)
+
 # [gulp](https://github.com/wearefractal/gulp)-jekyll
 
 > Compile Jekyll sites with Gulp.
