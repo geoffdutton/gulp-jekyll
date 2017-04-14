@@ -1,6 +1,6 @@
 {
   "name": "gulp-jekyll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compile Jekyll sites with Gulp.",
   "license": "MIT",
   "repository": "dannygarcia/gulp-jekyll",

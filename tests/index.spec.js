@@ -1,7 +1,7 @@
 
 var gutil = require('gulp-util')
-var spawn = require('win-spawn')
 jest.mock('win-spawn')
+var spawn = require('win-spawn')
 var jekyll = require('../')
 
 var fakeStream
