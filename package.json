@@ -1,6 +1,6 @@
 {
   "name": "gulp-jekyll",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Compile Jekyll sites with Gulp.",
   "license": "MIT",
   "repository": "dannygarcia/gulp-jekyll",
@@ -10,10 +10,11 @@
     "url": "http://danny-garcia.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "files": [
     "index.js"
@@ -32,6 +33,13 @@
     "temp-write": "~0.1.1"
   },
   "devDependencies": {
-    "mocha": "*"
+    "eslint": "^3.19.0",
+    "event-stream": "^3.3.4",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.2",
+    "vinyl": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
