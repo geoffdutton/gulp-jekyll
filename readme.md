@@ -12,7 +12,7 @@ Alpha: Currently still in development – runs with basic configuration (see ex
 
 - [ ] ~~Mocha Tests~~
 - [X] Jest Tests
-- [ ] Complete CI Setup
+- [X] Complete CI Setup
 - [ ] Fully implement all CLI options.
 - [ ] Document Options
 
