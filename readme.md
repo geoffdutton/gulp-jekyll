@@ -10,7 +10,8 @@ Alpha: Currently still in development – runs with basic configuration (see ex
 
 ### TODO:
 
-- [ ] Mocha Tests
+~~- [ ] Mocha Tests~~
+- [X] Jest Tests
 - [ ] Complete CI Setup
 - [ ] Fully implement all CLI options.
 - [ ] Document Options
@@ -40,6 +41,8 @@ gulp.task('default', function () {
 });
 ```
 ## Changelog
+
+- v0.0.1: Added Jest tests and swapped out jshint for eslint because the rules seemed to be outdated
 
 - v0.0.0: Initial Release
 

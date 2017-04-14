@@ -1,6 +1,6 @@
 {
   "name": "gulp-jekyll",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Compile Jekyll sites with Gulp.",
   "license": "MIT",
   "repository": "dannygarcia/gulp-jekyll",
@@ -34,10 +34,8 @@
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "event-stream": "^3.3.4",
     "jest": "^19.0.2",
-    "jest-cli": "^19.0.2",
-    "vinyl": "^2.0.1"
+    "jest-cli": "^19.0.2"
   },
   "jest": {
     "testEnvironment": "node"
