@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/geoffdutton/gulp-jekyll.svg)](https://travis-ci.org/geoffdutton/gulp-jekyll)
+
 # [gulp](https://github.com/wearefractal/gulp)-jekyll
 
 > Compile Jekyll sites with Gulp.
@@ -10,9 +12,9 @@ Alpha: Currently still in development – runs with basic configuration (see ex
 
 ### TODO:
 
-~~- [ ] Mocha Tests~~
+- [ ] ~~Mocha Tests~~
 - [X] Jest Tests
-- [ ] Complete CI Setup
+- [X] Complete CI Setup
 - [ ] Fully implement all CLI options.
 - [ ] Document Options
 
